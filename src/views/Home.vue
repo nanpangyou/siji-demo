@@ -4,7 +4,7 @@
       <notice></notice>
     </div>
     <div class="calander">
-      <calander></calander>
+      <calendar></calendar>
     </div>
   </div>
 </template>
@@ -12,12 +12,12 @@
 <script>
 // @ is an alias to /src
 import Notice from "@/components/Notice.vue";
-import Calander from "@/components/Calander.vue";
+import Calendar from "@/components/Calendar.vue";
 export default {
   name: "Home",
   components: {
     Notice,
-    Calander,
+    Calendar,
   },
 };
 </script>

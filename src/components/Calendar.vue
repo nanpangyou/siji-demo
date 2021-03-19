@@ -1,5 +1,7 @@
 <template>
-  <div>calander</div>
+  <div>
+    <a-calendar></a-calendar>
+  </div>
 </template>
 <script>
 export default {};
