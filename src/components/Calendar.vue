@@ -31,7 +31,7 @@ export default {
       }
       return listData || [];
     },
-    headerRender({ value }) {
+    headerRender({ value, type, onChange, onTypeChange }) {
       const start = 0;
       const end = 12;
       const monthOptions = [];
