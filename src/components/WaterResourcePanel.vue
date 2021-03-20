@@ -22,7 +22,7 @@
       <div>
         <a-tabs default-active-key="1">
           <a-tab-pane key="1" tab="分区供水量">
-            Content of Tab Pane 1
+            <water-chart></water-chart>
           </a-tab-pane>
           <a-tab-pane key="2" tab="分区出水量">
             Content of Tab Pane 3
@@ -34,7 +34,12 @@
   </div>
 </template>
 <script>
-export default {};
+import WaterChart from "./WaterChart";
+export default {
+  components: {
+    WaterChart,
+  },
+};
 </script>
 <style lang="less" scoped>
 .total-info {

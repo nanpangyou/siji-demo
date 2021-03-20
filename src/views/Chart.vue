@@ -3,7 +3,7 @@
     <div class="container">
       <div>
         <h3>水资源 <span>更多 ></span></h3>
-        <a-tabs default-active-key="2" @change="callback" class="tabs">
+        <a-tabs default-active-key="2" class="tabs">
           <a-tab-pane key="1" tab="水资源统计"> 水资源统计 </a-tab-pane>
           <a-tab-pane key="2" tab="水资源信息">
             <water-resource-panel></water-resource-panel>
