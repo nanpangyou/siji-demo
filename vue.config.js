@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/dist/"
+  publicPath: "/siji-demo/dist/"
 };
