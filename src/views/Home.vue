@@ -29,14 +29,18 @@ export default {
   .notice {
     height: 615px;
     width: 585px;
-    border: 1px solid blue;
     margin-right: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px #888888;
   }
   .calander {
     height: 615px;
     width: 585px;
-    border: 1px solid blue;
     margin-left: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px #888888;
   }
 }
 </style>

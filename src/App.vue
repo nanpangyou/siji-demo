@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<style lang="less">
+<style lang="less" scoped>
 #app {
   font-family: Microsoft YaHei, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -33,8 +33,8 @@
 
 .container {
   max-width: 1620px;
+  min-width: 1620px;
   margin: 20px auto;
-  border: 1px solid red;
   background: #fff;
 }
 </style>

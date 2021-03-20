@@ -136,7 +136,7 @@ export default {
   padding: 30px;
 }
 .cust-calendar-title {
-  margin-right: 50%;
+  margin-right: 40%;
   color: #fff;
   font-size: 22px;
 }
@@ -154,8 +154,9 @@ export default {
   padding: 0;
   .ant-fullcalendar-table {
     thead > tr {
-      background: #ccc;
-      height: 44px;
+      background: rgba(152, 154, 156, 0.2);
+      color: rgb(152, 154, 156);
+      height: 42px;
     }
     .ant-fullcalendar-date {
       margin: 0;
@@ -169,5 +170,25 @@ export default {
 }
 /deep/.ant-fullcalendar-fullscreen .ant-fullcalendar-content {
   overflow-y: hidden;
+}
+/deep/.ant-select {
+  width: 92px;
+}
+/deep/.ant-select-sm .ant-select-selection--single {
+  height: 34px;
+  background: #2ba3fd;
+  color: #fff;
+  font-weight: bold;
+}
+/deep/.ant-select-sm .ant-select-selection {
+  &:hover {
+    border-color: #fff;
+  }
+}
+/deep/.ant-select-sm .ant-select-selection__rendered {
+  line-height: 34px;
+}
+/deep/.ant-select-arrow .ant-select-arrow-icon svg {
+  fill: #fff;
 }
 </style>
